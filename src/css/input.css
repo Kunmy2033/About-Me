@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#social-media > ol > li {
+    margin: 0 10px;
+}
