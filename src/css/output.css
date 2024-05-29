@@ -609,5 +609,24 @@ video {
 }
 
 #social-media > ol > li {
+  position: relative;
   margin: 0 10px;
+}
+
+#social-media > ol > li:hover {
+  transition: .25s;
+  transform: scale(115%);
+}
+
+#social-media > ol > li:hover::after {
+  content: '';
+  transition: 0.5s;
+  position: absolute;
+  padding: 28px;
+  left: 0;
+  transform: translate(-22%, -10%);
+  background-color: rgb(46, 47, 47);
+  opacity: 50%;
+  border-radius: 9999px;
+  z-index: -1;
 }
