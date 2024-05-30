@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "26267623",
+      "name": "steam",
+      "font_class": "steam",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
       "icon_id": "599914",
       "name": "QQ",
       "font_class": "qq",
