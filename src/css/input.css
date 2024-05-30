@@ -2,25 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    /* 禁用滚动条 */
+    overflow: hidden;
+}
+
+
+#bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(49, 49, 49);
+    opacity: .5;
+    z-index: -1;
+}
+
 #social-media > ol > li {
     position: relative;
-    margin: 0 18px;
-}
-
-#social-media > ol > li:hover {
-    transition: transform 125ms ease-in-out;
-    transform: scale(115%);
-}
-
-#social-media > ol > li:hover::after {
-    content: '';
-    position: absolute;
-    padding: 27px;
-    left: 0;
-    top: 0;
-    transform: translate(-23%, -12%);
-    background-color: rgb(59, 57, 57);
-    opacity: .2;
-    border-radius: 9999px;
-    z-index: -1;
+    margin: 10px 16px;
 }

@@ -20,14 +20,19 @@
 }
 
 .icon-qq:before {
+    font-size: 28px;
+    color: rgb(0, 187, 255);
     content: "\e66a";
 }
 
 .icon-tuite:before {
+    font-size: 28px;
+    color: rgb(0, 170, 255);
     content: "\e6ac";
 }
 
 .icon-github:before {
+    font-size: 28px;
     content: "\e603";
 }
 
@@ -42,7 +47,7 @@
 }
 
 .icon-bilibili:before {
-    color: pink;
+    color: rgb(245, 146, 162);
     font-size: 28px;
     content: "\e849";
 }
