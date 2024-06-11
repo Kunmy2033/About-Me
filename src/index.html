@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,63 @@
     <link href="./css/output.css" rel="stylesheet">
     <link href="./css/iconfont.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- <div id="bg"></div> -->
-    <header class="flex h-[100vh] min-w-min justify-center items-center">
-        <!-- <div class="overlay"></div> -->
-        <div id="header-left" class="flex flex-col justify-center items-center">
-            <!-- avatar -->
-            <div id="avatar" class="transition flex-shrink-0 hover:blur-sm w-48 h-48 rounded-full my-2">
-                <img src="./img/avatar1.jpg" alt="avatar"/>
+    <header class="h-[100vh] flex justify-center items-center">
+        <div id="header-container" class="flex min-w-min justify-center items-center h-96 rounded-3xl shadow-2xl">
+            <!-- <div class="overlay"></div> -->
+            <div id="header-left" class="flex flex-col justify-center items-center">
+                <!-- avatar -->
+                <div id="avatar" class="flex w-52 h-52 justify-center items-center">
+                    <img src="./img/avatar1.jpg" alt="avatar" class="transition flex-shrink-0 hover:blur-sm w-48 h-48 rounded-full"/>
+                </div>
+                <!-- signature -->
+                <h1 id="signature" class="p-3">Kunmy</h1>
             </div>
-            <!-- signature -->
-            <h1 id="signature" class="p-3">Kunmy</h1>
-        </div>
-        <div id="header-right" class="flex flex-col">
-            <h1 class="text-center">你好 这里是 Kunmy 很高兴认识你</h1>
-             <!-- social meida -->
-             <div id="social-media" class="mx-2 flex-shrink-0">
-                <ol class="flex flex-row items-center">
-                    <!-- Github -->
-                    <li class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100"><a href="https://github.com/Kunmy2033" target="_blank" title="Github"><span class="iconfont icon-github"></span></a></li>
-                    <!-- Twitter -->
-                    <li class="transition hover:ring-4 rounded-full ring-neutral-400 w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100"><a href="https://x.com/MortimerK2" target="_blank" title="Twitter"><span class="iconfont icon-tuite"></span></a></li>
-                    <!-- Bilibili -->
-                    <li class="transition hover:ring-4 rounded-full ring-neutral-400 w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100"><a href="https://space.bilibili.com/5266423" target="_blank" title="Bilibili"><span class="iconfont icon-bilibili"></span></a></li>
-                    <!-- CloudMusic -->
-                    <li class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100"><a href="https://y.music.163.com/m/user?id=122283754" target="_blank" title="网易云音乐"><span class="iconfont icon-wangyiyunyinle"></span></a></li>
-                    <!-- QQ -->
-                    <li class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100"><a href="https://qm.qq.com/q/wVl0dLlkwa" target="_blank" title="QQ"><span class="iconfont icon-qq"></span></a></li>
-                    <!-- Steam -->
-                    <li class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100"><a href="https://steamcommunity.com/id/Mortimer3288" target="_blank" title="Steam"><span class="iconfont icon-steam"></span></a></li>
-                </ol>
+            <div id="header-right" class="flex flex-col">
+                <h1 class="text-center">你好 这里是 Kunmy 很高兴认识你</h1>
+                <!-- social meida -->
+                <div id="social-media" class="mx-2 flex-shrink-0">
+                    <ol class="flex flex-row items-center">
+                        <!-- Github -->
+                        <li
+                            class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100">
+                            <a href="https://github.com/Kunmy2033" target="_blank" title="Github"><span
+                                    class="iconfont icon-github"></span></a></li>
+                        <!-- Twitter -->
+                        <li
+                            class="transition hover:ring-4 rounded-full ring-neutral-400 w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100">
+                            <a href="https://x.com/MortimerK2" target="_blank" title="Twitter"><span
+                                    class="iconfont icon-tuite"></span></a></li>
+                        <!-- Bilibili -->
+                        <li
+                            class="transition hover:ring-4 rounded-full ring-neutral-400 w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100">
+                            <a href="https://space.bilibili.com/5266423" target="_blank" title="Bilibili"><span
+                                    class="iconfont icon-bilibili"></span></a></li>
+                        <!-- CloudMusic -->
+                        <li
+                            class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100">
+                            <a href="https://y.music.163.com/m/user?id=122283754" target="_blank" title="网易云音乐"><span
+                                    class="iconfont icon-wangyiyunyinle"></span></a></li>
+                        <!-- QQ -->
+                        <li
+                            class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100">
+                            <a href="https://qm.qq.com/q/wVl0dLlkwa" target="_blank" title="QQ"><span
+                                    class="iconfont icon-qq"></span></a></li>
+                        <!-- Steam -->
+                        <li
+                            class="transition hover:ring-4 ring-neutral-400 rounded-full w-12 h-12 flex justify-center items-center shadow-md bg-neutral-100">
+                            <a href="https://steamcommunity.com/id/Mortimer3288" target="_blank" title="Steam"><span
+                                    class="iconfont icon-steam"></span></a></li>
+                    </ol>
+                </div>
             </div>
+
+            <div class="fixed bottom-2 right-2 bg-black w-12 h-12 rounded-full"></div>
         </div>
-        
-        <div class="fixed bottom-2 right-2 bg-black w-12 h-12 rounded-full"></div>
-    </header> 
+    </header>
     <script src="./js/iconfont.js"></script>
 </body>
+
 </html>
